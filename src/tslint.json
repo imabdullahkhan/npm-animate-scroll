@@ -1,0 +1,17 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "animateOnScroll",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "animate-on-scroll",
+      "kebab-case"
+    ]
+  }
+}
