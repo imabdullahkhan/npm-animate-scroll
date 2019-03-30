@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-animation-scroll": [
+        "dist/ngx-animation-scroll"
+      ],
+      "ngx-animation-scroll/*": [
+        "dist/ngx-animation-scroll/*"
+      ]
+    }
   }
 }
